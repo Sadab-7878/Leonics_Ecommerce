@@ -12,7 +12,7 @@ const Herosection = () => {
       <div className="grid md:grid-cols-2 max-w-[1240px] mx-auto">
         <div className="flex flex-col justify-center md:items-start w-full px-2 py-8" data-aos="fade-right"  data-aos-duration="1500">
           <p className="font-sans font-bold text-4xl">The Best Place To <br /> Find And Buy <br /> Amazing product</p>
-          <p className="font-medium font-serif text-lg text-black py-3">Our new shoe will blow your mind with nice greep <br /> and balance for play to <br /> win the match easily on  the ground</p>
+          <p className="font-medium font-serif text-lg text-slate-400 py-3">Our new shoe will blow your mind with nice greep <br /> and balance for play to <br /> win the match easily on  the ground</p>
 
           <div className="flex  items-center gap-6 py-4">
 
