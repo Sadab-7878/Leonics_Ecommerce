@@ -39,12 +39,12 @@ const Pcategory = () => {
       <div className='-ml-6 md:mr-28 font-["Josefin Sans"]  text-2xl font-bold'>
         Popular Category
       </div>
-      <div className="max-w-[1240px] mx-auto mt-10 grid md:grid-cols-3 2xl:grid-cols-6 gap-5 ">
+      <div className="max-w-[1240px] mx-auto mt-10 grid md:grid-cols-3 2xl:grid-cols-6 gap-5">
         {elements.map((element, i) => {
           return (
             <div
               key={i}
-              className="shadow-xl my-10    h-[215px] hover:scale-105 duration-500 rounded-md"
+              className="shadow-xl my-10  px-2  h-[215px] hover:scale-105 duration-500 rounded-md "
             >
               <div className="flex flex-col items-center pt-8">
                 <img src={element.image} alt="" className="h-24" />
