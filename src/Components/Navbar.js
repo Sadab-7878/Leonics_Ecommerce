@@ -112,7 +112,7 @@ function Navbar() {
             </div>
 
 
-            <div className={!nav? 'hidden' : 'my-12 absolute bg-black w-full px-8 ' }>
+            <div className={!nav? 'hidden' : 'my-12 absolute bg-white w-full px-8 ' }>
            
             <ul >
 
