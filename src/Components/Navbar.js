@@ -70,7 +70,7 @@ function Navbar() {
 
       
 
-       <div className='hidden md:flex justify-end   items-center  col-span-1 '>
+       <div className='hidden md:flex justify-end   items-center  col-span-1 px-2'>
         <div className='flex gap-5 items-center   cursor-pointer   '>
 
           {toggle && (
