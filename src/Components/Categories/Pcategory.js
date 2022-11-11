@@ -36,7 +36,7 @@ const Pcategory = () => {
 
   return (
     <div className="py-[50px] px-20 mx-auto">
-      <div className=' text-center  md:text-start md:-ml-6  font-["Josefin Sans"]  text-2xl font-bold'>
+      <div className='text-center  md:text-start md:-ml-6  font-["Josefin Sans"]  text-2xl font-bold'>
         Popular Category
       </div>
       <div className="max-w-[1240px] mx-auto mt-10 grid md:grid-cols-3 2xl:grid-cols-6 gap-5">
