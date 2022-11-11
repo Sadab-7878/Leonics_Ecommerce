@@ -44,7 +44,7 @@ const Pcategory = () => {
           return (
             <div
               key={i}
-              className="shadow-xl my-10    h-[200px] hover:scale-105 duration-500 rounded-md"
+              className="shadow-xl my-10    h-[215px] hover:scale-105 duration-500 rounded-md"
             >
               <div className="flex flex-col items-center pt-8">
                 <img src={element.image} alt="" className="h-24" />
@@ -54,7 +54,7 @@ const Pcategory = () => {
                 <div className='font-["Poppins"] font-bold pt-2'>
                   {element.categoryName}
                 </div>
-                <div className='text-[10px] text-slate-400 font-["Poppins"]'>
+                <div className='text-sm text-slate-400 font-["Poppins"]'>
                   {element.subtitle}
                 </div>
               </div>
