@@ -14,7 +14,7 @@ function Navbar() {
   const handleclick = () => setNave(!nav)
 
   return (
-    <div className=' max-w-[1240px]  mx-auto grid grid-cols-3   mt-2 '>
+    <div className='container max-w-[1240px]  mx-auto grid grid-cols-3   mt-2 '>
 
       <div className='flex  justify-between items-center col-span-2 '>
       <div className='text-3xl text-emerald-800 font-serif px-2'>
